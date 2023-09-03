@@ -28,3 +28,4 @@ pip3 install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+5. Test the app directly [here](https://explainability-ai-vu74z27mh3h3v9dbs5mo69.streamlit.app/)
