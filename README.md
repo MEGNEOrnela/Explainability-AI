@@ -9,6 +9,7 @@ The goal is to visualize which parts of the input image contribute most to the m
 - **CAM**: uses the learned weight parameters of the final fully connected layer (classifier) to generate the activation map. The activation maps is obtained by doing a weighted combinations of the feature maps (Global Poolin Average).
 - **GradCAM**: takes advantage of the gradients of the predicted class with respect to the feature maps of a convolutional layer. The gradients provide information about how small changes in each pixel of the feature maps affect the final class score.
 
+These two techniques are implemented from scratch using Pytorch.
 
 ## Setup
 
