@@ -1,0 +1,10 @@
+torch
+torchvision
+numpy
+opencv-python
+Pillow
+
+matplotlib
+
+altair==4.2.2
+streamlit
