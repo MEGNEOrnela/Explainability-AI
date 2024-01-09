@@ -3,7 +3,7 @@
 This app take a user-provided images and try to make predictions about the contents of the image.
 In addition, it either **CAM** (Class Activation Map) or **[GradCAM](https://arxiv.org/pdf/1610.02391.pdf)** to generate visual representation highlighting the regions within the input image that influence the model's classification decision for a specific class.
 
-## Description of the methos
+## Description of the methods
 The goal is to visualize which parts of the input image contribute most to the model's decision for a specific class. These two approaches differ in how they attribute importance to different regions of the input image.
 
 - **CAM**: uses the learned weight parameters of the final fully connected layer (classifier) to generate the activation map. The activation maps is obtained by doing a weighted combinations of the feature maps (Global Poolin Average).
